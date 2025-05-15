@@ -3,6 +3,6 @@ kind: Namespace
 metadata:
   annotations:
   labels:
-    kubernetes.io/metadata.name: myopenshiftcluster
-  name: myopenshiftcluster
+    kubernetes.io/metadata.name: myopenshiftblog
+  name: myopenshiftblog
 spec: {}
