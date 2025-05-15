@@ -3,7 +3,7 @@ kind: PolicyGenerator
 metadata:
   name: create-myopenshiftblog-namespace
 policyDefaults:
-  namespace: policies
+  namespace: observe
   placement:
     clusterSelectors:
       name: "observe"
