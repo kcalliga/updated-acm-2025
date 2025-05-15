@@ -2,9 +2,7 @@ apiVersion: policy.open-cluster-management.io/v1
 kind: PolicyGenerator
 metadata:
   name: create-myopenshiftblog-namespace
-policyDefaults:
-  namespace: policies
-  remediationAction: enforce
+policyDefaults: {}
 policies:
   - name: create-myopenshiftblog-namespace
     manifests:
