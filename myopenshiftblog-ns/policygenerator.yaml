@@ -6,7 +6,7 @@ policyDefaults:
   namespace: policies
   placement:
     clusterSelectors:
-      name: "observe"
+      name: "kidc-poc"
   remediationAction: enforce
 policies:
   - name: create-myopenshiftblog-namespace
